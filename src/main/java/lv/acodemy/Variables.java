@@ -27,7 +27,7 @@ public class Variables {
 
 
         // char (symbol)
-        char symbol = '%';
+        char symbol = '$';
         System.out.println(symbol);
 
 
