@@ -14,7 +14,7 @@ public class Variables {
         // int 32-bit
         int amountOfHours = 280320;
         System.out.println(amountOfHours);
-        int result = (6 * 4) + 5;
+        int result = (7 * 4) + 5;
         System.out.println(result);
 
         // long 64-bit
