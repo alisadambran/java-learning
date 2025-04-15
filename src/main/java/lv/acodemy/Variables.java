@@ -14,7 +14,7 @@ public class Variables {
         // int 32-bit
         int amountOfHours = 280320;
         System.out.println(amountOfHours);
-        int result = (6 * 4) + 5;
+        int result = (7 * 4) + 5;
         System.out.println(result);
 
         // long 64-bit
@@ -44,5 +44,18 @@ public class Variables {
 
         // String
         String myFullName = "Alisa Dambrane"; // immutable
+        System.out.println( myFullName);
+
+        String text = "Good \nweather";
+        System.out.println(text);
+
+        String poem = """
+                  To be, or not to be, that is the question:
+                  Whether 'tis nobler in the mind to suffer
+                  The slings and arrows of outrageous fortune,
+                  Or to take arms against a sea of troubles
+                  """;
+        System.out.println(poem);
+
     }
 }
