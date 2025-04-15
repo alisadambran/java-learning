@@ -44,5 +44,10 @@ public class Variables {
 
         // String
         String myFullName = "Alisa Dambrane"; // immutable
+        System.out.println( myFullName);
+
+        String text = "Good \nweather";
+        System.out.println(text);
+
     }
 }
