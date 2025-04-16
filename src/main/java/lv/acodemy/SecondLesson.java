@@ -135,5 +135,15 @@ public class SecondLesson {
         System.out.println("Summa: " + summa);
 
 
+        int randomNumber = new Random
+        System.out.println(randomNumber);
+        int guess;
+        Scanner myScanner = new Scanner(System.in);
+        do {
+            System.out.println("Guess number from 1 to 10");
+            guess = myScanner.nextInt();
+        } while (guess != randomNumber);
+        System.out.println("Guessed!");
+
             }
 }
