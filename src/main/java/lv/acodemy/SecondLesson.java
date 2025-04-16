@@ -135,6 +135,6 @@ public class SecondLesson {
         System.out.println("Summa: " + summa);
 
 
-
+int sum = 0;
             }
 }
