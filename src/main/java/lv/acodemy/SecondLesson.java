@@ -127,6 +127,14 @@ public class SecondLesson {
                 isGuessed = true;
             }
 
+        int guessedNumber = 10;
+        int guess;
+        Scanner myScanner = new Scanner(System.in);
+        do {
+            System.out.println("Guess number from 1 to 10");
+            guess = myScanner.nextInt();
+        } while (guess != guessedNumber);
+        System.out.println("Guessed!");
 
         int summa = 0;
         for (int o = 1; o <= 100; o++) {
