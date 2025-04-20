@@ -121,7 +121,27 @@ public class Thirdlesson {
         }
         System.out.println("Sum of positive numbers: " + sum);
 
+        // 1 till 20,
+        // print numbers that can be divided by 3 and 5;
+        // print divided by 3
+        // print divided by 5
+        // else -> just print number;
+
+
+        for(int i = 1; i <= 20; i++) {
+            if(i % 3 == 0 && i % 5 == 0) {
+                System.out.println("Number:" + i + "can be divided by 3 and 5! ");
+            }else if (i % 3 == 0) {
+                System.out.println("Number:" + i + "can be divided by 3! ");
+            }else if (i % 5 == 0) {
+                System.out.println("Number:" + i + "can be divided by 5! ");
+            }else {
+                System.out.println("This number is useless " + i);
+            }
+        }
         
+
+
 
     }
 }
